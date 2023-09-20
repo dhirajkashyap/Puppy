@@ -4,7 +4,6 @@ import (
 	"github.com/dhirajkashyap/Dog"
 )
 
-
 func Bark() string {
 	return "Woof!"
 }
@@ -19,5 +18,6 @@ func Barkz() string {
 
 
 func BigBark() string {
-	return dog.WhenGrownUp(Barkz()))
+	return Dog.WhenGrownUp(Barkz())
+	//return dog.WhenGrownUp(Barkz()))
 }
